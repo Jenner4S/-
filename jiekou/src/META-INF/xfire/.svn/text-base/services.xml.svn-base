@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+  <service xmlns="http://xfire.codehaus.org/config/1.0">
+    <name>HELLOWORLD</name><!-- 服务名称 -->
+    <namespace>com.sjq.webservice/HELLOWORLD</namespace><!-- 指定命名空间 -->
+    <serviceClass>com.sjq.webservices.hello.HelloWorldServiceInter</serviceClass><!-- 指定服务的接口 -->
+    <implementationClass>com.sjq.webservices.hello.HelloWorldServiceImpl
+    </implementationClass><!-- 指定接口的实现类 -->
+    <!-- 配置参数名 -->
+    <serviceFactory>jsr181</serviceFactory>
+  </service>
+
+</beans>
