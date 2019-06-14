@@ -1,4 +1,4 @@
-# -
+# 江苏法人信用查询接口
 #江苏信用办法人
 
 1、JsCreditWsDemoGa是调用WS服务提供方的 Demo
